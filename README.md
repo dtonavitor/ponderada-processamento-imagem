@@ -14,7 +14,8 @@ Algumas aplicações são:
 - Veículos autônomos, permite que carros autônomos evitem obstáculos como pedestres e outros carros, além de identificar faixas e sinais de trânsito.
 
 #### 2.1.2 Produtos e segmentos de mercado
-
+- Adobe Photoshop (segmento de design gráfico e edição de imagens)
+- MATLAB Image Processing Toolbox (segmento acadêmico e de pesquisa, mas pode ser utilizado em diferentes aplicações)
 
 ### 2.2 Redução de ruído
 A redução de ruído em imagens é o processo de remover elementos indesejados da imagem, que podem ocorrer devido a condições de iluminação inadequadas, problemas na câmera, ou interferência externa durante a captura da imagem. A meta é melhorar a qualidade visual da imagem sem perder detalhes importantes.
@@ -27,3 +28,18 @@ Algumas aplicações são:
 - Sistemas de segurança para clarear imagens capturadas em condições desfavoráveis.
 
 #### 2.1.2 Produtos e segmentos de mercado
+- Topaz Denoise AI (segmento de fotografia e vídeo)
+- MATLAB Image Processing Toolbox (segmento acadêmico e de pesquisa, mas pode ser utilizado em diferentes aplicações)
+
+### 2.2 Teste
+Nesta seção será discutido os resultados obtidos testando o MATLAB Image Processing Toolbox para segmentação de imagens. Foi utilizado a função específica de segmentação "Find Circles", que segmenta círculos na imagem.
+
+Imagem original: <br/>
+<img src="./imagem_original_teste.png" alt="Imagem com 10 moedas de diferentes tamanhos" /><br/>
+Imagem segmentada:<br/>
+<img src="./imagem_segmentada_teste.png" alt="Imagem com 10 moedas de diferentes tamanhos segmentadas" />
+
+É possível perceber que todas as moedas foram devidamente identificadas e segmentadas. A imagem é simples, porém mostra de forma eficaz como funciona o processo de segmentação.
+
+## III. Conclusão
+Este relatório mostra duas tarefas no processamento de imagens e suas aplicações na vida real. O teste de um dos produtos foi bem-sucedido e ilustra o processo de segmentação.
